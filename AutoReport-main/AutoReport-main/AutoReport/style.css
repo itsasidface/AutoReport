@@ -1,0 +1,48 @@
+/* style.css */
+
+/* ===== Custom Utilities ===== */
+
+/* Modal overlay (dark background) */
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Hover-lift effect for cards */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Hero Section background */
+.hero-section {
+  background: linear-gradient(to right, #10172A, #1E293B);
+}
+
+/* Smooth transitions for buttons and links */
+button,
+a {
+  transition: all 0.25s ease-in-out;
+}
+
+/* Scrollbar styling (optional, looks cleaner on desktop) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4F46E5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3730A3;
+}
